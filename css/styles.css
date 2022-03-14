@@ -1,0 +1,107 @@
+
+.styles{
+  background-image:url(../images/backgrounc/h_img.jpg);
+  height: 45rem;
+  background-size:cover;
+  text-align: center;
+  color:white;
+  padding-top:18%;
+}
+.image{
+  padding-top:15%;
+}
+h2,h4{
+  text-align: center;
+  color:white;
+
+}
+h4{
+  font-size: 1rem;
+}
+.images{
+  background-image: url(../images/backgrounc/s_image.jpg);
+  height: 20rem;
+  text-align: center;
+  color:white;
+  padding-top:9%;
+}
+#click{
+  padding-top:10px;
+}
+
+#icons{
+  text-align:center;
+
+}
+
+.container{
+  text-align: center;
+}
+.contacts{
+background-image: url(../images/backgrounc/c_image.jpg);
+height:40rem;
+text-align: center;
+}
+li{
+  list-style:  none;
+  display:inline;
+
+}
+ul{
+  text-align:center;
+}
+h5{
+  text-align: center;
+}
+.design,.product,.development{
+  display:none;
+  cursor: pointer;
+
+}
+.design-image,.dev-image,.prod-image{
+cursor: pointer;
+}
+
+.portfolio-img{
+  width:100%;
+  display:block;
+}
+.pic {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.portfolio-img:hover .image {
+  opacity: 0.3;
+}
+
+.portfolio-img:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  border: 2px solid white;
+  height: 150px;
+  width: 150px;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+input{
+    margin: 5%;
+}
